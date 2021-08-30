@@ -16,7 +16,7 @@ This repository contains a classification model that has been trained to detect 
   - 3: 'ta-en' or Tanglish
   - 4: 'ml-en' or Manglish
 
-## Classificaation model
+## Classification model
 - For building the classification model, we have used the pre-trained `ai4bharat/indic-bert` and finetuned on this dataset for classification task. This model has achieved best results in different tasks involving Indian languages. Apart from that, unlike `xlm-roberta` or other multilingual models, `indic-bert` focuses hugely on Indian languages.
 - For training the models, we have used the fastai library to maintain coherence with the [inltk]() toolkit. This model has been inspired from this Medium [article](https://towardsdatascience.com/fastai-with-transformers-bert-roberta-xlnet-xlm-distilbert-4f41ee18ecb2) which talks about how to incorporate the transformers library with fastai. 
 - In this model, we have used gradual unfreezing of layers along with slanted triangular learning rates.

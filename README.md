@@ -25,7 +25,7 @@ This repository contains a classification model that has been trained to detect 
 - After training, `inference.ipynb` can be used for getting inference predictions
 
 ## Notes
-- https://github.com/goru001/inltk/pull/77 integrates the trained classifier with the `inltk` library.
+- This [PR](goru001/inltk#77) integrates the trained classifier with the `inltk` library.
 - You can download the pre-trained classifier model from [here](https://www.dropbox.com/s/tlhnkbqffqb832a/export.pkl).
 
 ## Future Work
